@@ -1,0 +1,91 @@
+00:00:00.008082 main     VirtualBox COM Server 7.0.12 r159484 win.amd64 (Oct 12 2023 19:53:29) release log
+00:00:00.008087 main     Log opened 2024-01-14T07:00:57.971253600Z
+00:00:00.008089 main     Build Type: release
+00:00:00.008297 main     OS Product: Windows 10
+00:00:00.008300 main     OS Release: 10.0.19045
+00:00:00.008302 main     OS Service Pack: 
+00:00:00.050005 main     DMI Product Name: 80RK
+00:00:00.067866 main     DMI Product Version: Lenovo ideapad 100-14IBD
+00:00:00.067960 main     Firmware type: BIOS
+00:00:00.067975 main     Host RAM: 4013MB (3.9GB) total, 1259MB available
+00:00:00.068024 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.068025 main     Process ID: 5244
+00:00:00.068026 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.278789          VirtualBox: object creation starts
+00:00:00.279824          Home directory: 'C:\Users\TrinhTV\.VirtualBox'
+00:00:00.280038          Installed Drivers:
+00:00:00.295421            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.12.9484)
+00:00:00.295975            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.12.9484)
+00:00:00.296489            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.12.9484)
+00:00:00.296983            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.12.9484)
+00:00:00.368180          usbLibGetDevices: Starting USB device enumeration
+00:00:00.431117          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&19719ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+00:00:00.431301          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&19719ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.431432          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&19719ecc&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.439895          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.441521          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb728)
+00:00:00.441837          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x5744)
+00:00:00.671220          netIfIsWireless: CreateFile on '\\.\{5B816557-901C-4BE9-914B-917CEF73464A}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.696957          HostDnsMonitor: initializing
+00:00:00.714073          HostDnsMonitor: updating information
+00:00:00.714350          HostDnsMonitor: old information
+00:00:00.714352            no server entries
+00:00:00.714354            no domain set
+00:00:00.714355            no search string entries
+00:00:00.714356          HostDnsMonitor: new information
+00:00:00.714357            server 1: 192.168.0.1
+00:00:00.714359            no domain set
+00:00:00.714359            no search string entries
+00:00:00.874723          SUPR0QueryVTCaps -> VERR_VMX_MSR_ALL_VMX_DISABLED
+00:00:00.875877          VD: VDInit finished with VINF_SUCCESS
+00:00:00.879971          VirtualBox: object created
+00:00:00.968649          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.097751          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:01.098191          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.167602          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:01.167898          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.238810          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:02.322277          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.393515          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:02.500033          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.569481          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:02.569891          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.641234          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:02.641570          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:02.843610          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:05.854051          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:05.928653          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:05.928786          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:05.997343          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:06.633660          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.704399          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:00:06.704512          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.775113          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:01:33.345735          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:33.349064          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:02:37.571397 createBase Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:37.575524 createBase Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:02:37.598974          Saving settings file "C:\Users\TrinhTV\VirtualBox VMs\may\may.vbox" with version "1.19-windows"
+00:02:37.602308          Finished saving settings file "C:\Users\TrinhTV\VirtualBox VMs\may\may.vbox"
+00:02:37.602817          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:37.606321          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:02:37.617294          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:37.620888          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:02:37.623493          Saving settings file "C:\Users\TrinhTV\VirtualBox VMs\may\may.vbox" with version "1.19-windows"
+00:02:37.627650          Finished saving settings file "C:\Users\TrinhTV\VirtualBox VMs\may\may.vbox"
+00:02:37.630903          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:37.636152          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:02:38.011676          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:38.022039          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:38.541112          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:38.544436          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:02:38.544558          Saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:02:38.548327          Finished saving settings file "C:\Users\TrinhTV\.VirtualBox\VirtualBox.xml"
+00:03:34.018197 dns-monitor HostDnsMonitor: updating information
+00:03:34.018230 dns-monitor HostDnsMonitor: unchanged
+00:15:05.390553 main     VirtualBox: object deletion starts
+00:15:05.391534 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\TrinhTV\VirtualBox VMs\may\may.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:15:05.397861 main     HostDnsMonitor: shutting down ...
+00:15:05.397943 main     HostDnsMonitor: shut down
+00:15:05.401979 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:15:05.403541 main     VirtualBox: object deleted

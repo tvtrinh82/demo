@@ -1,0 +1,21 @@
+00:00:00.512558 VirtualBox GUI VM Selector Window 7.0.12 r159484 win.amd64 (Oct 12 2023 19:53:29) release log
+00:00:00.512562 Log opened 2024-01-14T07:01:00.408587400Z
+00:00:00.512563 Build Type: release
+00:00:00.512572 OS Product: Windows 10
+00:00:00.512574 OS Release: 10.0.19045
+00:00:00.512575 OS Service Pack: 
+00:00:00.541536 DMI Product Name: 80RK
+00:00:00.550217 DMI Product Version: Lenovo ideapad 100-14IBD
+00:00:00.550265 Firmware type: BIOS
+00:00:00.550281 Host RAM: 4013MB (3.9GB) total, 1162MB available
+00:00:00.550286 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.550287 Process ID: 9836
+00:00:00.550288 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.550474 Qt version: 5.15.2
+00:00:00.551580 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.900167 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.900217 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:35.642858 GUI: UIMediumEnumerator: Medium with key={{7df55856-b64a-42ae-9915-66a18e72e7fb}} created
+00:02:35.750430 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:38.775408 GUI: UICommon: Handling aboutToQuit request..
+00:02:39.670998 GUI: UICommon: aboutToQuit request handled!
