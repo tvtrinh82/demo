@@ -1,0 +1,64 @@
+Chức năng và ý nghĩa của các lệnh Git cơ bản:
+
+1. git init:
+Chức năng: Khởi tạo kho lưu trữ Git mới trong thư mục hiện tại. Lệnh này tạo ra một thư mục ẩn tên .git lưu trữ toàn bộ lịch sử phiên bản của dự án.
+Ý nghĩa: Lệnh này thiết lập kho lưu trữ cục bộ để quản lý các phiên bản của dự án.
+
+2. git clone:
+Chức năng: Tạo bản sao của kho lưu trữ Git từ xa trên máy tính cục bộ. Bạn cung cấp URL của kho lưu trữ từ xa dưới dạng đối số.
+Ý nghĩa: Lệnh này cho phép bạn làm việc trên bản sao của dự án từ vị trí từ xa như GitHub hoặc GitLab.
+
+3. git fetch:
+Chức năng: Tải xuống những thay đổi mới nhất từ ​​kho lưu trữ từ xa mà không tích hợp chúng vào thư mục làm việc cục bộ.
+Ý nghĩa: Sử dụng lệnh này để cập nhật những thay đổi của kho lưu trữ từ xa mà không ảnh hưởng đến công việc cục bộ của bạn.
+
+4. git status:
+Chức năng: Hiển thị trạng thái hiện tại của thư mục làm việc và khu vực dàn dựng. Lệnh này hiển thị các tệp chưa theo dõi, tệp đã sửa đổi và tệp đã dàn dựng.
+Ý nghĩa: Lệnh này giúp bạn hiểu những tệp nào có thay đổi và liệu chúng đã sẵn sàng để commit hay chưa.
+
+5. git add:
+Chức năng: Thêm tệp vào khu vực dàn dựng, chuẩn bị cho việc commit tiếp theo.
+Ý nghĩa: Sử dụng lệnh này để chỉ định rõ ràng những tệp bạn muốn bao gồm trong commit tiếp theo.
+
+6. git commit:
+Chức năng: Tạo ảnh chụp nhanh trạng thái hiện tại của dự án, bao gồm các tệp được dàn dựng cho commit và thông báo commit mô tả.
+Ý nghĩa: Lệnh này tạo bản ghi vĩnh viễn về những thay đổi của dự án cùng với thông báo giải thích những thay đổi đó.
+
+7. git pull:
+Chức năng: Kết hợp các lệnh git fetch và git merge trong một bước. Lệnh này tải xuống những thay đổi mới nhất từ ​​kho lưu trữ từ xa và cố gắng hợp nhất chúng vào thư mục làm việc cục bộ.
+Ý nghĩa: Lệnh này là cách tiện lợi để tải xuống và tích hợp những thay đổi từ xa mới nhất vào nhánh cục bộ của bạn.
+
+8. git push:
+Chức năng: Tải lên các commit cục bộ lên kho lưu trữ từ xa.
+Ý nghĩa: Sử dụng lệnh này để chia sẻ những thay đổi cục bộ của bạn với những người cộng tác trong dự án trên kho lưu trữ từ xa.
+
+9. git merge:
+Chức năng: Hợp nhất những thay đổi từ nhánh khác (cục bộ hoặc từ xa) vào nhánh hiện tại. Lệnh này có thể liên quan đến việc giải quyết xung đột nếu các nhánh phân nhánh đáng kể.
+Ý nghĩa: Lệnh này cho phép bạn kết hợp công việc được thực hiện trên các nhánh khác nhau vào nhánh hiện tại của bạn.
+
+10. git rebase:
+Chức năng: Phát lại các commit cục bộ của bạn trên đầu một nhánh khác (thường là nhánh thượng nguồn). Lệnh này viết lại lịch sử commit, tạo ra lịch sử tuyến tính.
+Ý nghĩa: Lệnh này có thể được sử dụng để giữ cho lịch sử nhánh cục bộ của bạn sạch hơn và có tổ chức hơn, nhưng hãy sử dụng nó một cách thận trọng vì nó có thể viết lại lịch sử. Sử dụng nó một cách cẩn thận để quay lại trạng thái trước đó.
+
+11. git checkout:
+Chức năng: Chuyển đổi giữa các nhánh trong kho lưu trữ cục bộ.
+Ý nghĩa: Sử dụng lệnh này để làm việc trên các phiên bản khác nhau của dự án hoặc di chuyển giữa các nhánh để xem xét hoặc tích hợp các thay đổi.
+
+12. git reset:
+Chức năng: Cho phép bạn hoàn tác các thay đổi trong thư mục làm việc hoặc khu vực dàn dựng. Lệnh này có thể được sử dụng theo nhiều cách khác nhau tùy thuộc vào đối số được cung cấp.
+Ý nghĩa: Lệnh này mạnh mẽ nhưng cần thận trọng vì nó có thể xóa vĩnh viễn các thay đổi
+
+
+
+
+
+Đẩy file lên github
+
+git config --global user.name "tvtrinh82"
+git config --global user.email tranvtrinh82@mail.com
+git config --list
+git init
+git remote add origin https://github.com/tvtrinh82/demo.git
+git add .
+git commit -m"init project"
+git push
